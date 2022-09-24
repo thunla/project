@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    <main id="main" role="main">
+        <div class="form__info">
+            <h2>Đặt xe</h2>
+            <form class="form__wrapper" method="post" action="/dashboard" autocomplete="off">
+                <div class="form__group">
+                    <div class="form__box">
+                        <input id="customer" type="text" name="customer" required />
+                        <label for="customer">Tên khách hàng</label>
+                    </div>
+                    <div class="form__box">
+                        <input id="phone" type="text" name="phone" required />
+                        <label for="phone">Điện thoại</label>
+                    </div>
+                </div>
+                <div class="form__group">
+                    <div class="form__box">
+                        <input id="start" type="text" name="start" required />
+                        <label for="start">Điểm đón</label>
+                    </div>
+                    <div class="form__box">
+                        <input id="end" type="text" name="end" required />
+                        <label for="end">Điểm đến</label>
+                    </div>
+                </div>
+                <div class="form__box">
+                    <select>
+                        <option>Xe 4 chỗ</option>
+                        <option>Xe 7 chỗ</option>
+                        <option>Xe 16 chỗ</option>
+                        <option>Xe 24 chỗ</option>
+                        <option>Xe 45 chỗ</option>
+                    </select>
+                </div>
+                <button type="submit">Đăng nhập</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
